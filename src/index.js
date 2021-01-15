@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import SignIn from './SignInView';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+	<Route path="/SignUp" component={SignUp}></Route>
   </React.StrictMode>,
   document.getElementById('root')
 );
